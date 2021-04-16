@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  - adocker build -t node .
+  - docker build -t node .
   - docker images node
